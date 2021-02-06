@@ -9,7 +9,7 @@ body {
     font
   border-radius: 5px;
   line-height: 20px;
-    padding-top: 0px;
+    padding-top: 10px;
     padding-bottom: 0px;
     text-align: center;
     margin: auto;
@@ -87,33 +87,13 @@ textarea {
 }
 [type="submit"]:hover { background: orange; }
 
-.blogdate {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight:500;
-  font-size: 14px;
-    font
-  border-radius: 5px;
-  line-height: 18px;
-    padding-bottom: 5px;
-    
-}
-.blogtitle {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight:700;
-  font-size: 20px;
-    font
-  border-radius: 5px;
-  line-height: 22px;
-    padding-bottom: 15px;
-}
-
 a {
   color: black;
   text-decoration: none; /* no underline */
 }
 
 a:hover {
-  background-color: forestgreen;
+  color: forestgreen;
 }
 
 .menu
@@ -125,7 +105,7 @@ list-style: none;
 
 li { display: inline; }
 
-img {margin: auto; width: 100%; max-width: 700px; margin-top: 0px; border-radius: 0px 0px 0px 10px;}
+img {margin: auto; width: 100%; max-width: 700px; margin-top: 0px; border-radius: 10px 10px 10px 10px;}
 .pic1
 {width: 100%; max-width: 700px; vertical-align: top; margin: 0px; display: inline-block;
 }
@@ -170,3 +150,5 @@ img {margin: auto; width: 100%; max-width: 700px; margin-top: 0px; border-radius
 
  .boxInner img { width: 100%; border-radius: 0px 0px 0px 0px;}
 }
+
+.footer{color: grey;}
