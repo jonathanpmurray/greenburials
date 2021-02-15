@@ -14,13 +14,14 @@ body {
     text-align: center;
     margin: auto;
 }
-p {max-width: 700px;}
+p {max-width: 700px; text-align: left; padding: 0px;}
 h1 {
     font: 400 60px/0.5 'Italianno', cursive;
   color: forestgreen;
     line-height: 1cm;
     margin-top: 30px;
     margin-bottom: 30px;
+    padding: 10px;
 }
 h2 {
   color: forestgreen;
@@ -56,7 +57,7 @@ form { max-width:400px;  }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid steelblue;
+  border:2px solid forestgreen;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -76,7 +77,7 @@ textarea {
 [type="submit"] {
   font-family: Helvetica, Arial, sans-serif;
   width: 100%;
-  background:steelblue;
+  background:forestgreen;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -88,7 +89,7 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background: orange; }
+[type="submit"]:hover { background: lightgreen; }
 
 a {
   color: black;
@@ -115,6 +116,10 @@ img {margin: auto; width: 100%; max-width: 700px; margin-top: 0px; border-radius
 .pic2
 {width: 100%; max-width: 500px; vertical-align: top; margin: 0px; display: inline-block;
 }
+
+.footer{color: black;
+    text-align: left;}
+    
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -151,7 +156,5 @@ img {margin: auto; width: 100%; max-width: 700px; margin-top: 0px; border-radius
   cursor: pointer;
 }
 
- .boxInner img { width: 100%; border-radius: 0px 0px 0px 0px;}
-}
-
-.footer{color: grey;}
+ .boxInner img { width: 100%; border-radius: 0px 0px 0px 0px;
+    }
